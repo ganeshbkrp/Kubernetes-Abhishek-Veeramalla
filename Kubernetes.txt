@@ -1,0 +1,24 @@
+Kubernetes is a container orchestration platform.
+Containers are ephemeral in nature.
+
+Single host
+Auto Healing
+Auto Scaling
+Enterprise level support
+
+Docker does not provide enterprise level support to your applications.
+Kubernetes is installed on a Cluster. Cluster is a group of nodes.
+Kubernetes can also be installed on 1 single node but it will only be used for development purposes and not enterprise level production state.
+
+Kubernetes solves the problem of Single host by having clusters and multiple nodes where the container is moved to another node in the cluster
+if there is a resource crunch on the first host.
+
+Kubernetes solves the problem of Autoscaling by spinning up new containers via HPA(Horizontal Pod Autoscaling) where new containers are spun up on demand
+when the threshold crosses a certain load. Also the YAML file in Kubernetes needs to be edited to increase the replicas from 0-> any number( which ever you wish).
+
+The autohealing problem is solved by Kubernetes when it rolls out new containers when the previous ones are about to be shutdown.
+
+Kubernetes has been mainly introduced to provide enterprise level support for applications. Docker has it's own limitations
+and is not suitable for production at Enterprise level. So we use Kubernetes to fill in that gap. It is open source and new features keep getting added every now and then.
+
+
