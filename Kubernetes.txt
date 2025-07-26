@@ -22,3 +22,19 @@ Kubernetes has been mainly introduced to provide enterprise level support for ap
 and is not suitable for production at Enterprise level. So we use Kubernetes to fill in that gap. It is open source and new features keep getting added every now and then.
 
 
+Day 31:- Kubernetes Architecture
+
+ontainer runtime in Docker is called dockershim
+
+You deploy a container in Docker. When it comes to Kubernetes it is called a POD.
+1. Pod has a component called kubelet which makes sure that the Pod is always Up and running. It maintains the property of Autohealing by informing kubernetes that the Pod is/may go down.
+2. You also have a container runtime like containerd, crio-d,.
+3. Kube-proxy allows you networking, loadbalancing and Ip addressing.
+
+The above components are part of the worker node or Dataplane.
+
+API Server - The heart of your Kubernetes server which takes all the requests from the external world.
+Scheduler - It schedules where the Pod has to be deployed on. The node where the pod needs to run is scheduled by the scheduler.
+etcd - It is a key value store for the entire Kubernetes cluster. 
+controller manager - It manages all the controllers like replicaset controller etc in the kubernetes infrastrucutre.
+cloud controller manager(CCM) - It is a core optional control plane component designed to allow Kubernetes to interact with the APIs and resources of different underlying cloud providers.
