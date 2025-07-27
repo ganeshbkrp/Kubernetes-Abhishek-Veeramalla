@@ -24,7 +24,7 @@ and is not suitable for production at Enterprise level. So we use Kubernetes to 
 
 Day 31:- Kubernetes Architecture
 
-ontainer runtime in Docker is called dockershim
+Container runtime in Docker is called dockershim
 
 You deploy a container in Docker. When it comes to Kubernetes it is called a POD.
 Pods are are the smalest deployable units in Kubernetes. A pod contains one or more containers and they share the same storage, same network resources, and are present on the same host. They are also scheduled and run together.
