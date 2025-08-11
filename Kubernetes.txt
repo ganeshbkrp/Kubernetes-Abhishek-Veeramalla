@@ -45,3 +45,5 @@ Minikube & Kubectl installation
 You need minicube and Kubectl installed on your client machine or server for managing/running your Kubernetes clusters. 
 For minikube you already need a platform where docker or similar containerization tools have already been installed and you can isntall minikube ontop of it. 
 Once you install minikube Kubectl will also be installed automatically.
+
+Kubectl 
