@@ -39,3 +39,9 @@ Scheduler - It schedules where the Pod has to be deployed on. The node where the
 etcd - It is a key value store for the entire Kubernetes cluster. 
 controller manager - It manages all the controllers like replicaset controller etc in the kubernetes infrastrucutre.
 cloud controller manager(CCM) - It is a core optional control plane component designed to allow Kubernetes to interact with the APIs and resources of different underlying cloud providers.
+
+Minikube & Kubectl installation
+
+You need minicube and Kubectl installed on your client machine or server for managing/running your Kubernetes clusters. 
+For minikube you already need a platform where docker or similar containerization tools have already been installed and you can isntall minikube ontop of it. 
+Once you install minikube Kubectl will also be installed automatically.
