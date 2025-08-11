@@ -47,3 +47,5 @@ For minikube you already need a platform where docker or similar containerizatio
 Once you install minikube Kubectl will also be installed automatically.
 kubectl is the official and essential command-line tool for running and managing Kubernetes clusters.
 Kubectl lets you run commands to create, modify, and inspect Kubernetes resources, including pods, deployments, and services.
+
+EKS, Openshift, Tanzu etc are different flavours of Kubernetes. 
