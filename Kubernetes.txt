@@ -65,3 +65,6 @@ Do not run the pod direclty. First create a Deploy file which will create a repl
 Job of a controller is to maintain the same state as what is mentioned in the Yaml manifest files. If the Yaml file mentions that there should be 100 replicasets then the cotroller makes sure that there are 100 pods running.
 Replicaset is a Kubernetes Controller which ensures that the state present in the Kubernetes YAML Manifest files is realised in the Kubernetes cluster. Replicaset ensures that the autohealing capability of kubernetes is active.
 deployment is a high level wrapper/abstraction for the replicaset and pods.
+
+Day 35:- Kubernetes Services | Discovery | Load balancing | Networking
+
