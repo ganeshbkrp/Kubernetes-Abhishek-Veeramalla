@@ -10,3 +10,6 @@ Q3: What is the difference between Kubernetes and Docker Swarm?
 Ans: Dockerswarm unlike Kubernertes is used in small scale enterprises and organizations where the size of the infrastructure is small. Where as Kubernestes is used for largescale organizations where scale and stability is 
 important. Kubernetes also has strong networking capabilities and offers huge 3rd party ecosystem support.
 
+Q4: What is the difference between Docker Contaier and Kubernetes Pod?
+Ans: A pod in kubernetes is a runtime specification of a container in Docker. Pod is the smallest compute unit in Kubernetes. A Pod provides more declarative way of defining using YAML and you can provision more than one 
+container in Kubernetes.
