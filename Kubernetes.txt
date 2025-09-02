@@ -40,6 +40,8 @@ etcd - It is a key value store for the entire Kubernetes cluster.
 controller manager - It manages all the controllers like replicaset controller etc in the kubernetes infrastrucutre.
 cloud controller manager(CCM) - It is a core optional control plane component designed to allow Kubernetes to interact with the APIs and resources of different underlying cloud providers.
 
+The above components are part of the Control Plane inKubernetes cluster.
+
 Minikube & Kubectl installation
 
 You need minicube and Kubectl installed on your client machine or server for managing/running your Kubernetes clusters. 
@@ -67,5 +69,6 @@ Replicaset is a Kubernetes Controller which ensures that the state present in th
 deployment is a high level wrapper/abstraction for the replicaset and pods.
 
 Day 35:- Kubernetes Services | Discovery | Load balancing | Networking
+
 
 
